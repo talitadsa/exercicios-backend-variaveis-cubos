@@ -1,9 +1,9 @@
 function calculaComprimento(R){
-    const C = 2 * 3.14 * R;
+    const C = 2 * Math.PI * R;
     return C.toFixed(2);
 }
 function calculaArea(R){
-    const A = 3.14 * R**2
+    const A = Math.PI * R**2
     return A;
 }
 function exibeResultado(R){

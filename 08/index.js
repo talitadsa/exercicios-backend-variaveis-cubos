@@ -8,8 +8,8 @@ function calculaArea(R){
 }
 function exibeResultado(R){
     const C = calculaComprimento(R);
-    console.log(`O comprimento do círculo �: ${C}.`);
+    console.log(`O comprimento do círculo é: ${C}.`);
     const A = calculaArea(R);
-    console.log(`A �rea do círculo é: ${A}.`);
+    console.log(`A área do círculo é: ${A}.`);
 }
 exibeResultado(1);
